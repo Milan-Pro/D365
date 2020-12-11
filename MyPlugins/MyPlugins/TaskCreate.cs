@@ -8,7 +8,7 @@ using System.ServiceModel;
 
 namespace MyPlugins
 {
-    class TaskCreate : IPlugin
+    public class TaskCreate : IPlugin
     {
         public void Execute(IServiceProvider serviceProvider)
         {
@@ -40,7 +40,7 @@ namespace MyPlugins
 
                     // signle line of text
                     taskRecord.Attributes.Add("subject", "Follow up");
-                    taskRecord.Attributes.Add("Description", "Please follow up with contact.");
+                    taskRecord.Attributes.Add("description", "Please follow up with contact.");
 
                     // date
                     taskRecord.Attributes.Add("scheduledend", DateTime.Now.AddDays(2));
@@ -51,7 +51,7 @@ namespace MyPlugins
                     // Parent Record or Look Up
                     //taskRecord.Attributes.Add("regardingobjectid", new EntityReference("Contact", contact.Id));
 
-                    taskRecord.Attributes.Add("recordingobjectid", contact.ToEntityReference());
+                    taskRecord.Attributes.Add("regardingobjectid", contact.ToEntityReference());
 
                     Guid taskGuid = service.Create(taskRecord);
 
