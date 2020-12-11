@@ -1,0 +1,9 @@
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\obj\Debug\MyPlugins.csprojAssemblyReference.cache
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\obj\Debug\MyPlugins.csproj.CoreCompileInputs.cache
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\bin\Debug\MyPlugins.dll
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\bin\Debug\MyPlugins.pdb
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\obj\Debug\MyPlugins.csproj.CopyComplete
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\obj\Debug\MyPlugins.dll
+C:\Users\parik\Source\Repos\D365\MyPlugins\MyPlugins\obj\Debug\MyPlugins.pdb
